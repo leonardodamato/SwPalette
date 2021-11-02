@@ -9,14 +9,42 @@
 /* Begin PBXBuildFile section */
 		B954E4072724932F00EB0610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4062724932F00EB0610 /* AppDelegate.swift */; };
 		B954E4092724932F00EB0610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4082724932F00EB0610 /* SceneDelegate.swift */; };
-		B954E40B2724932F00EB0610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E40A2724932F00EB0610 /* ViewController.swift */; };
-		B954E40E2724932F00EB0610 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B954E40C2724932F00EB0610 /* Main.storyboard */; };
-		B954E4112724932F00EB0610 /* SwiftPalette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B954E40F2724932F00EB0610 /* SwiftPalette.xcdatamodeld */; };
 		B954E4132724933000EB0610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B954E4122724933000EB0610 /* Assets.xcassets */; };
 		B954E4162724933000EB0610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B954E4142724933000EB0610 /* LaunchScreen.storyboard */; };
 		B954E4212724933000EB0610 /* SwiftPaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4202724933000EB0610 /* SwiftPaletteTests.swift */; };
 		B954E42B2724933100EB0610 /* SwiftPaletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E42A2724933100EB0610 /* SwiftPaletteUITests.swift */; };
 		B954E42D2724933100EB0610 /* SwiftPaletteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E42C2724933100EB0610 /* SwiftPaletteUITestsLaunchTests.swift */; };
+		B954E43B272493FA00EB0610 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E43A272493FA00EB0610 /* HomeViewController.swift */; };
+		B954E43F2724960300EB0610 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E43E2724960300EB0610 /* API.swift */; };
+		B954E442272497ED00EB0610 /* APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E441272497ED00EB0610 /* APITests.swift */; };
+		B954E444272499EF00EB0610 /* PaletteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E443272499EF00EB0610 /* PaletteService.swift */; };
+		B954E44727249A7B00EB0610 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E44627249A7B00EB0610 /* Palette.swift */; };
+		B954E4492724A2FF00EB0610 /* PaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4482724A2FF00EB0610 /* PaletteViewController.swift */; };
+		B954E44B2724A31300EB0610 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E44A2724A31300EB0610 /* PaletteView.swift */; };
+		B954E44D2724A31D00EB0610 /* PaletteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E44C2724A31D00EB0610 /* PaletteViewModel.swift */; };
+		B954E4512724A53000EB0610 /* HexToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4502724A53000EB0610 /* HexToUIColor.swift */; };
+		B954E4532724E8CA00EB0610 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4522724E8CA00EB0610 /* Box.swift */; };
+		B954E4562724F26500EB0610 /* PaletteViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4552724F26500EB0610 /* PaletteViewModelTests.swift */; };
+		B954E4582725D03B00EB0610 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4572725D03B00EB0610 /* ColorCell.swift */; };
+		B954E45B2725D11300EB0610 /* ColorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E45A2725D11300EB0610 /* ColorCellViewModel.swift */; };
+		B954E45D2725D4B600EB0610 /* ContentSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E45C2725D4B600EB0610 /* ContentSizedTableView.swift */; };
+		B954E4632725E97800EB0610 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B954E4622725E97800EB0610 /* UIView+Ext.swift */; };
+		B9ED004927274B8B00121286 /* SwiftPalette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9ED004727274B8B00121286 /* SwiftPalette.xcdatamodeld */; };
+		B9ED004B2727AAFA00121286 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED004A2727AAFA00121286 /* UIColor+Ext.swift */; };
+		B9ED004D2728867600121286 /* NavBarTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED004C2728867600121286 /* NavBarTitleView.swift */; };
+		B9ED004F2728874000121286 /* NavBarTitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED004E2728874000121286 /* NavBarTitleViewModel.swift */; };
+		B9ED005427288C7300121286 /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005327288C7300121286 /* MenuListViewController.swift */; };
+		B9ED005627288C8400121286 /* MenuListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005527288C8400121286 /* MenuListView.swift */; };
+		B9ED005827288C9100121286 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005727288C9100121286 /* MenuListViewModel.swift */; };
+		B9ED005B27288FB600121286 /* MyPalettesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005A27288FB600121286 /* MyPalettesView.swift */; };
+		B9ED005D27288FC300121286 /* MyPalettesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005C27288FC300121286 /* MyPalettesViewController.swift */; };
+		B9ED005F27288FD000121286 /* MyPalettesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED005E27288FD000121286 /* MyPalettesViewModel.swift */; };
+		B9ED006227288FFD00121286 /* MyPalettesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED006127288FFD00121286 /* MyPalettesCell.swift */; };
+		B9ED00642728900A00121286 /* MyPalettesCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED00632728900A00121286 /* MyPalettesCellViewModel.swift */; };
+		B9ED00662728C0B000121286 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED00652728C0B000121286 /* UIViewController+Ext.swift */; };
+		B9ED00692728C1FC00121286 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED00682728C1FC00121286 /* LoadingViewController.swift */; };
+		B9ED006B2728C6B400121286 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED006A2728C6B400121286 /* UIImageView+Ext.swift */; };
+		B9ED006E2728CF4000121286 /* ViewPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9ED006D2728CF4000121286 /* ViewPaletteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +68,6 @@
 		B954E4032724932F00EB0610 /* SwiftPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B954E4062724932F00EB0610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B954E4082724932F00EB0610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B954E40A2724932F00EB0610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B954E40D2724932F00EB0610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B954E4102724932F00EB0610 /* SwiftPalette.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPalette.xcdatamodel; sourceTree = "<group>"; };
 		B954E4122724933000EB0610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B954E4152724933000EB0610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B954E4172724933000EB0610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +76,37 @@
 		B954E4262724933000EB0610 /* SwiftPaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPaletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B954E42A2724933100EB0610 /* SwiftPaletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPaletteUITests.swift; sourceTree = "<group>"; };
 		B954E42C2724933100EB0610 /* SwiftPaletteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPaletteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B954E43A272493FA00EB0610 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B954E43E2724960300EB0610 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		B954E441272497ED00EB0610 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
+		B954E443272499EF00EB0610 /* PaletteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteService.swift; sourceTree = "<group>"; };
+		B954E44627249A7B00EB0610 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		B954E4482724A2FF00EB0610 /* PaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewController.swift; sourceTree = "<group>"; };
+		B954E44A2724A31300EB0610 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
+		B954E44C2724A31D00EB0610 /* PaletteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewModel.swift; sourceTree = "<group>"; };
+		B954E4502724A53000EB0610 /* HexToUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColor.swift; sourceTree = "<group>"; };
+		B954E4522724E8CA00EB0610 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		B954E4552724F26500EB0610 /* PaletteViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteViewModelTests.swift; sourceTree = "<group>"; };
+		B954E4572725D03B00EB0610 /* ColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		B954E45A2725D11300EB0610 /* ColorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellViewModel.swift; sourceTree = "<group>"; };
+		B954E45C2725D4B600EB0610 /* ContentSizedTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSizedTableView.swift; sourceTree = "<group>"; };
+		B954E4622725E97800EB0610 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		B9ED004827274B8B00121286 /* SwiftPalette.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPalette.xcdatamodel; sourceTree = "<group>"; };
+		B9ED004A2727AAFA00121286 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		B9ED004C2728867600121286 /* NavBarTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTitleView.swift; sourceTree = "<group>"; };
+		B9ED004E2728874000121286 /* NavBarTitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTitleViewModel.swift; sourceTree = "<group>"; };
+		B9ED005327288C7300121286 /* MenuListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
+		B9ED005527288C8400121286 /* MenuListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListView.swift; sourceTree = "<group>"; };
+		B9ED005727288C9100121286 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
+		B9ED005A27288FB600121286 /* MyPalettesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalettesView.swift; sourceTree = "<group>"; };
+		B9ED005C27288FC300121286 /* MyPalettesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalettesViewController.swift; sourceTree = "<group>"; };
+		B9ED005E27288FD000121286 /* MyPalettesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalettesViewModel.swift; sourceTree = "<group>"; };
+		B9ED006127288FFD00121286 /* MyPalettesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalettesCell.swift; sourceTree = "<group>"; };
+		B9ED00632728900A00121286 /* MyPalettesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalettesCellViewModel.swift; sourceTree = "<group>"; };
+		B9ED00652728C0B000121286 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		B9ED00682728C1FC00121286 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		B9ED006A2728C6B400121286 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		B9ED006D2728CF4000121286 /* ViewPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPaletteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +157,16 @@
 		B954E4052724932F00EB0610 /* SwiftPalette */ = {
 			isa = PBXGroup;
 			children = (
+				B9ED005027288C2900121286 /* AppViewRelated */,
+				B954E44E2724A51600EB0610 /* Helpers */,
+				B954E44527249A7100EB0610 /* Model */,
+				B954E43D272495EC00EB0610 /* Networking */,
 				B954E4062724932F00EB0610 /* AppDelegate.swift */,
 				B954E4082724932F00EB0610 /* SceneDelegate.swift */,
-				B954E40A2724932F00EB0610 /* ViewController.swift */,
-				B954E40C2724932F00EB0610 /* Main.storyboard */,
 				B954E4122724933000EB0610 /* Assets.xcassets */,
 				B954E4142724933000EB0610 /* LaunchScreen.storyboard */,
+				B9ED004727274B8B00121286 /* SwiftPalette.xcdatamodeld */,
 				B954E4172724933000EB0610 /* Info.plist */,
-				B954E40F2724932F00EB0610 /* SwiftPalette.xcdatamodeld */,
 			);
 			path = SwiftPalette;
 			sourceTree = "<group>";
@@ -116,6 +174,8 @@
 		B954E41F2724933000EB0610 /* SwiftPaletteTests */ = {
 			isa = PBXGroup;
 			children = (
+				B954E4542724F25300EB0610 /* Palette */,
+				B954E440272497C700EB0610 /* Networking */,
 				B954E4202724933000EB0610 /* SwiftPaletteTests.swift */,
 			);
 			path = SwiftPaletteTests;
@@ -128,6 +188,158 @@
 				B954E42C2724933100EB0610 /* SwiftPaletteUITestsLaunchTests.swift */,
 			);
 			path = SwiftPaletteUITests;
+			sourceTree = "<group>";
+		};
+		B954E439272493CD00EB0610 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B954E43A272493FA00EB0610 /* HomeViewController.swift */,
+				B9ED004C2728867600121286 /* NavBarTitleView.swift */,
+				B9ED004E2728874000121286 /* NavBarTitleViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B954E43C272495BF00EB0610 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				B954E4592725D10300EB0610 /* ColorCell */,
+				B954E4482724A2FF00EB0610 /* PaletteViewController.swift */,
+				B954E44A2724A31300EB0610 /* PaletteView.swift */,
+				B954E44C2724A31D00EB0610 /* PaletteViewModel.swift */,
+				B954E443272499EF00EB0610 /* PaletteService.swift */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		B954E43D272495EC00EB0610 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B954E43E2724960300EB0610 /* API.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B954E440272497C700EB0610 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B954E441272497ED00EB0610 /* APITests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B954E44527249A7100EB0610 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B954E44627249A7B00EB0610 /* Palette.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B954E44E2724A51600EB0610 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B954E45C2725D4B600EB0610 /* ContentSizedTableView.swift */,
+				B954E4502724A53000EB0610 /* HexToUIColor.swift */,
+				B954E44F2724A51C00EB0610 /* Extensions */,
+				B954E4522724E8CA00EB0610 /* Box.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B954E44F2724A51C00EB0610 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B954E4622725E97800EB0610 /* UIView+Ext.swift */,
+				B9ED004A2727AAFA00121286 /* UIColor+Ext.swift */,
+				B9ED00652728C0B000121286 /* UIViewController+Ext.swift */,
+				B9ED006A2728C6B400121286 /* UIImageView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B954E4542724F25300EB0610 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				B954E4552724F26500EB0610 /* PaletteViewModelTests.swift */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
+		B954E4592725D10300EB0610 /* ColorCell */ = {
+			isa = PBXGroup;
+			children = (
+				B954E4572725D03B00EB0610 /* ColorCell.swift */,
+				B954E45A2725D11300EB0610 /* ColorCellViewModel.swift */,
+			);
+			path = ColorCell;
+			sourceTree = "<group>";
+		};
+		B9ED005027288C2900121286 /* AppViewRelated */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED00672728C1BF00121286 /* Reusable Views */,
+				B9ED005127288C4A00121286 /* Menu */,
+				B954E439272493CD00EB0610 /* Home */,
+				B954E43C272495BF00EB0610 /* Palette */,
+			);
+			path = AppViewRelated;
+			sourceTree = "<group>";
+		};
+		B9ED005127288C4A00121286 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED005927288FA500121286 /* My Palettes */,
+				B9ED005227288C5900121286 /* MenuList */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		B9ED005227288C5900121286 /* MenuList */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED005327288C7300121286 /* MenuListViewController.swift */,
+				B9ED005527288C8400121286 /* MenuListView.swift */,
+				B9ED005727288C9100121286 /* MenuListViewModel.swift */,
+			);
+			path = MenuList;
+			sourceTree = "<group>";
+		};
+		B9ED005927288FA500121286 /* My Palettes */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED006027288FDC00121286 /* MyPalettesCell */,
+				B9ED005C27288FC300121286 /* MyPalettesViewController.swift */,
+				B9ED005A27288FB600121286 /* MyPalettesView.swift */,
+				B9ED005E27288FD000121286 /* MyPalettesViewModel.swift */,
+				B9ED006C2728CF0F00121286 /* ViewPalette */,
+			);
+			path = "My Palettes";
+			sourceTree = "<group>";
+		};
+		B9ED006027288FDC00121286 /* MyPalettesCell */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED006127288FFD00121286 /* MyPalettesCell.swift */,
+				B9ED00632728900A00121286 /* MyPalettesCellViewModel.swift */,
+			);
+			path = MyPalettesCell;
+			sourceTree = "<group>";
+		};
+		B9ED00672728C1BF00121286 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED00682728C1FC00121286 /* LoadingViewController.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+		B9ED006C2728CF0F00121286 /* ViewPalette */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED006D2728CF4000121286 /* ViewPaletteViewController.swift */,
+			);
+			path = ViewPalette;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +448,6 @@
 			files = (
 				B954E4162724933000EB0610 /* LaunchScreen.storyboard in Resources */,
 				B954E4132724933000EB0610 /* Assets.xcassets in Resources */,
-				B954E40E2724932F00EB0610 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +472,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B954E40B2724932F00EB0610 /* ViewController.swift in Sources */,
-				B954E4112724932F00EB0610 /* SwiftPalette.xcdatamodeld in Sources */,
+				B9ED005B27288FB600121286 /* MyPalettesView.swift in Sources */,
+				B9ED005827288C9100121286 /* MenuListViewModel.swift in Sources */,
+				B9ED00662728C0B000121286 /* UIViewController+Ext.swift in Sources */,
+				B9ED00692728C1FC00121286 /* LoadingViewController.swift in Sources */,
+				B954E4632725E97800EB0610 /* UIView+Ext.swift in Sources */,
+				B954E44D2724A31D00EB0610 /* PaletteViewModel.swift in Sources */,
+				B9ED006E2728CF4000121286 /* ViewPaletteViewController.swift in Sources */,
+				B9ED006B2728C6B400121286 /* UIImageView+Ext.swift in Sources */,
+				B9ED004F2728874000121286 /* NavBarTitleViewModel.swift in Sources */,
+				B954E43B272493FA00EB0610 /* HomeViewController.swift in Sources */,
+				B9ED00642728900A00121286 /* MyPalettesCellViewModel.swift in Sources */,
+				B9ED004B2727AAFA00121286 /* UIColor+Ext.swift in Sources */,
+				B9ED006227288FFD00121286 /* MyPalettesCell.swift in Sources */,
+				B954E4492724A2FF00EB0610 /* PaletteViewController.swift in Sources */,
+				B954E45D2725D4B600EB0610 /* ContentSizedTableView.swift in Sources */,
 				B954E4072724932F00EB0610 /* AppDelegate.swift in Sources */,
+				B954E4532724E8CA00EB0610 /* Box.swift in Sources */,
+				B954E43F2724960300EB0610 /* API.swift in Sources */,
+				B9ED005D27288FC300121286 /* MyPalettesViewController.swift in Sources */,
 				B954E4092724932F00EB0610 /* SceneDelegate.swift in Sources */,
+				B9ED005427288C7300121286 /* MenuListViewController.swift in Sources */,
+				B9ED005627288C8400121286 /* MenuListView.swift in Sources */,
+				B954E4582725D03B00EB0610 /* ColorCell.swift in Sources */,
+				B954E444272499EF00EB0610 /* PaletteService.swift in Sources */,
+				B954E4512724A53000EB0610 /* HexToUIColor.swift in Sources */,
+				B954E44B2724A31300EB0610 /* PaletteView.swift in Sources */,
+				B954E45B2725D11300EB0610 /* ColorCellViewModel.swift in Sources */,
+				B9ED005F27288FD000121286 /* MyPalettesViewModel.swift in Sources */,
+				B9ED004D2728867600121286 /* NavBarTitleView.swift in Sources */,
+				B9ED004927274B8B00121286 /* SwiftPalette.xcdatamodeld in Sources */,
+				B954E44727249A7B00EB0610 /* Palette.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +510,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B954E442272497ED00EB0610 /* APITests.swift in Sources */,
 				B954E4212724933000EB0610 /* SwiftPaletteTests.swift in Sources */,
+				B954E4562724F26500EB0610 /* PaletteViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +541,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B954E40C2724932F00EB0610 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B954E40D2724932F00EB0610 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B954E4142724933000EB0610 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,21 +678,21 @@
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPalette/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift Palette";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leodamato.SwiftPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -474,21 +706,21 @@
 				DEVELOPMENT_TEAM = CS4VP352BW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPalette/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift Palette";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leodamato.SwiftPalette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -630,14 +862,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B954E40F2724932F00EB0610 /* SwiftPalette.xcdatamodeld */ = {
+		B9ED004727274B8B00121286 /* SwiftPalette.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B954E4102724932F00EB0610 /* SwiftPalette.xcdatamodel */,
+				B9ED004827274B8B00121286 /* SwiftPalette.xcdatamodel */,
 			);
-			currentVersion = B954E4102724932F00EB0610 /* SwiftPalette.xcdatamodel */;
+			currentVersion = B9ED004827274B8B00121286 /* SwiftPalette.xcdatamodel */;
 			path = SwiftPalette.xcdatamodeld;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
